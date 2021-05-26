@@ -30,8 +30,11 @@ Segunda parte:
 - Implementación de Logout en Firebase
 
 Tercera parte:
-- 
-- 
+- CRUD hacia Firestore (Creamos nuevo Reducer)
+- Utilización de useRef para mantener una referencia de una variable mutable y no volver a cargarla si el componente cambia
+- Seleccionar y subir archivos
+- Animaciones con una biblioteca Css
+- Limpieza al hacer el logout
 
 ## Hora de testear
 Correr todos los tests:
