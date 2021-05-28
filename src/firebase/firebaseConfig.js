@@ -3,12 +3,12 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
   const firebaseConfig = {
-    apiKey: "AIzaSyBshjBMJOGWqA5UIpUno6WKDBTSLP3elt4",
-    authDomain: "diario-app-7c284.firebaseapp.com",
-    projectId: "diario-app-7c284",
-    storageBucket: "diario-app-7c284.appspot.com",
-    messagingSenderId: "137961946702",
-    appId: "1:137961946702:web:046ed3bfb89d59f3facd1f"
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTHDOMAIN,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
+    appId: process.env.REACT_APP_APPID
   };
 
 // Initialize Firebase
